@@ -1,0 +1,37 @@
+{
+  "name": "jstejada",
+  "description": "Juan's site",
+  "version": "1.0.0",
+  "author": "Juan Tejada <juans.tejada@gmail.com>",
+  "dependencies": {
+    "emotion": "^8.0.8",
+    "emotion-server": "^8.0.8",
+    "gatsby": "^1.9.63",
+    "gatsby-link": "^1.6.21",
+    "gatsby-plugin-emotion": "^1.1.8",
+    "gatsby-plugin-react-helmet": "^1.0.5",
+    "gatsby-plugin-react-next": "^1.0.4",
+    "lodash.debounce": "^4.0.8",
+    "react-typist": "^2.0.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build && surge public jstejada.net"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.9.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint_d": "^5.1.0",
+    "prettier": "^1.7.4",
+    "surge": "^0.20.1"
+  }
+}
